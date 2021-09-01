@@ -1,0 +1,71 @@
+Console.WriteLine("Propietario:Derek Garcia");
+            Console.WriteLine("................................");
+            int n1 = 0;
+            int o = 0;
+            int c = 0;
+            int w = 0;
+
+            Console.WriteLine("1: +");
+            Console.WriteLine("2: -");
+            Console.WriteLine("3: *");
+            Console.WriteLine("4: /");
+
+            Console.Write("Elige una opcion: "); n1 = int.Parse(Console.ReadLine());
+
+            switch (o)
+            {
+                case 1:
+                    Console.WriteLine("suma");
+                    Console.Write("Ingrese un Numero: "); o = int.Parse(Console.ReadLine());
+
+                    Console.Write("Ingrese el siguiente Numero: "); c = int.Parse(Console.ReadLine());
+                    w = o + c;
+                    Console.WriteLine("El resultado de la Suma es : " + w); 
+                    
+                    break;
+
+                case 2:
+                    Console.WriteLine("resta");
+                    Console.Write("Ingrese un Numero: "); o = int.Parse(Console.ReadLine());
+
+                    Console.Write("Ingrese el siguiente Numero: "); c = int.Parse(Console.ReadLine());
+                    w = o - c;
+                    Console.WriteLine("El resultado de la Resta es : " + w);
+                    
+                    break;
+                case 3:
+                    Console.WriteLine("multiplicacion");
+                    Console.Write("Ingrese un Numero: "); w = int.Parse(Console.ReadLine());
+
+                    Console.Write("Ingrese el sigiente  Numero: "); c = int.Parse(Console.ReadLine());
+                    w = o * c;
+                    Console.WriteLine("El resultado de la Multiplicacion es de: " + w);
+                    break;
+                case 4:
+                    Console.WriteLine("division");
+                    Console.Write("Ingrese un Numero: "); o = int.Parse(Console.ReadLine());
+
+                    Console.Write("Ingrese el siguinte  Numero: "); c = int.Parse(Console.ReadLine());
+                    w = o / c ;
+                    Console.WriteLine("El resultado de la Division es : " + o);
+                    
+                    break;
+
+                default:
+                    Console.WriteLine("opcion incorrecta");
+                    
+                    break;
+
+
+
+
+
+
+
+                    
+            }
+
+            Console.ReadLine();
+
+
+
